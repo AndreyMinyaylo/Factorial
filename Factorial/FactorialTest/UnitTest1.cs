@@ -20,7 +20,7 @@ namespace FactorialTest
         {
             var sr = string.Empty;
             sr = string.Format("Fact({0}) = {1}", someNumber, fact(someNumber));
-            // Console.ReadKey();
+           
             Assert.AreEqual(st, sr);
         }
 
