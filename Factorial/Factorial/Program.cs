@@ -24,7 +24,15 @@ namespace Factorial
 
     public static double fact(double someNumber)
     {
-            return someNumber == 1 ? someNumber : fact(someNumber - 1) * someNumber;
+        if (someNumber == 1)
+        {
+            return 1;
+        }
+        else
+        {
+                someNumber = fact(someNumber - 1) * someNumber;
+                return someNumber;
+        }
 
         }
 
@@ -38,34 +46,11 @@ public static void outData()
         
     }
 
-    class factorialWhithCycle
-    {
-        public static void result(double someNumber)
-        {
-            double resultFactorial = 1;
-            for (double i = 1; i <=Convert.ToDouble(someNumber); i++)
-            {
-                 resultFactorial = resultFactorial * i;
-            }
-            Console.Write("Factorial number {0} is {1} ", someNumber, resultFactorial);
-            Console.ReadLine();
-        }
-
-        public static void outData()
-        {
-            double someNumber = factorial.input();
-            result(someNumber);
-
-        }
-            
-    }
-
     class consoleOut
     {
         static void Main(string[] args)
         {
             factorial.outData();
-            factorialWhithCycle.outData();
         }
     }
 }

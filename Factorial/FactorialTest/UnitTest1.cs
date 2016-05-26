@@ -10,12 +10,7 @@ namespace FactorialTest
     [TestFixture]
     public class UnitTestFactorial
     {
-        public static double input()
-            {
-                Console.WriteLine("Enter number:");
-                double number = int.Parse(Console.ReadLine());
-                return number;
-            }
+        
 
         [TestCase(5, "Fact(5) = 120")] //5!
         [TestCase(10, "Fact(10) = 3628800")] //10!
