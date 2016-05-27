@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Fact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialTest", "FactorialTest\FactorialTest.csproj", "{5363A7FE-789B-44E5-BDC7-BE89DF31816B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitCecleTest", "NUnitCecleTest\NUnitCecleTest.csproj", "{2E34D796-4505-4397-8998-E31DCCC3FDD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5363A7FE-789B-44E5-BDC7-BE89DF31816B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5363A7FE-789B-44E5-BDC7-BE89DF31816B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5363A7FE-789B-44E5-BDC7-BE89DF31816B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E34D796-4505-4397-8998-E31DCCC3FDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E34D796-4505-4397-8998-E31DCCC3FDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E34D796-4505-4397-8998-E31DCCC3FDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E34D796-4505-4397-8998-E31DCCC3FDD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
